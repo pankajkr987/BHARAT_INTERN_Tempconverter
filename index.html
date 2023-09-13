@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/42891a49c8.js" crossorigin="anonymous"></script> 
+</head>
+
+<body>
+    <div id="conatainer">
+        <h1> Temperature Converter </h1>
+        <div class="box">
+
+            <div class="leftdiv">
+                <h3>Enter Temperature</h3>
+                <h4>Degree</h4>
+                <div class="degreepart">
+                    <input type="text" value="" placeholder="Degree" id="degree">
+                    <select name="" id="options">
+                        <option value="C" selected>C</option>
+                        <option value="F">F</option>
+                        <option value="K">K</option>
+                    </select>
+                </div>
+                <!------ convert in part ------->
+                <h4>Convert in</h4>
+                <select name="" id="conv-to">
+                    <option value="F">Farhenite (F)</option>
+                    <option value="C">Celcius (C)</option>
+                    <option value="K">Kelvin (K)</option>
+                </select>
+                <button type="submit" id="submit"> <b>Convert</b></button>
+            </div>
+            <!---------------right side divison ------------------->
+            <div class="rightdiv">
+                <div id="output">
+                    Output :
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><span>&copy</span> made with love <i class="fa-solid fa-heart"></i> Pankaj kumar</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color:rgb(61, 128, 61)
+}
+
+#conatainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#conatainer h1 {
+    margin: 10px;
+    color: aqua;
+}
+
+.box {
+    border: 3px solid darkolivegreen;
+    height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftdiv {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px
+}
+
+.leftdiv h4 {
+    margin-top: 30px;
+    color: rgb(36, 202, 202);
+}
+
+.degreepart {
+    margin-top: 5px;
+}
+
+.degreepart input {
+    padding: 10px;
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.degreepart select {
+
+    height: 40px;
+    width: 50px;
+}
+
+#conv-to {
+    height: 40px;
+    width: 287px;
+    border-radius: 5px;
+}
+
+.leftdiv button {
+    margin-top: 30px;
+    height: 40px;
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 15px;
+    background-color: aqua;
+
+}
+
+.rightdiv {
+    color: aqua;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    word-wrap: break-word;
+
+}
+
+.copyright {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    background-color: black;
+    color: aqua;
+    width: 100%;
+    padding: 14px 14px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.copyright i {
+    color: red;
+
+}
